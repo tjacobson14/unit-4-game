@@ -1,0 +1,64 @@
+<html>
+
+<head>
+ <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/reset.css">
+<link href="https://fonts.googleapis.com/css?family=Monoton|Permanent+Marker|Bangers" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+<title>Crystal Collector</title>
+</head>
+
+<body>
+
+<div class=container>
+	<h1>Crystal<br>Collector</h1>
+
+	<div id=magicNumber>Magic Number:</div>
+
+	<div class="crystals">
+
+	</div>
+
+
+	<div class=main>
+		<div class=main-left>
+		<h2>GAME PLAY</h2>
+		
+		<p>1. You'll be given a number at the start of each game.<br>
+		2. There are four crystals above. By clicking on crystal,<br>you add a specific amount of points to your total score.<br>
+		3. To win, match your total score to the random number.<br>You'll lose the game if your total score goes above the random number.</p>
+		
+		<div class=notes>
+		The value of the crystals will be hidden until you click them.<br>
+		Each time the game restarts, the value of the crystals will change.
+		</div>
+		
+		</div>
+		
+	</div>
+
+
+	
+	<div class=score>
+		<div id=totalScore></div>
+		<div id=score>Total Score: </div>
+	</div>
+	
+	<div class=win>
+		<div id=winText></div>
+		<div id=win>WINS: </div>
+	</div>
+	<br>
+	<br>
+	<div class=lose>
+		<div id=loseText></div>
+		<div id=lose>LOSSES: </div>
+	</div>
+	
+</div>
+
+<!-- Javascript -->
+<script src="assets/javascript/game.js"></script>
+</body>
+</html>

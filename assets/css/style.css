@@ -1,0 +1,103 @@
+.body {
+    margin-left:30rem;
+    margin-right:30rem;
+}
+.container{
+    /* background: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    
+    opacity: 50%;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    background-color: whitesmoke;
+    height: 100%;
+    text-align: center;
+}
+
+.container h1 {
+    text-align: center;
+    font-family: 'Monoton', cursive;
+    color: goldenrod;
+    font-size: 3rem;
+    padding:1rem;
+}
+
+#magicNumber{
+    text-align: center;
+    padding:1rem;
+    font-weight: 100;
+    
+    font-size: 1rem;
+}
+
+.main-left h2 {
+    text-align: center;
+    padding:1rem;
+    
+}
+
+.main-left p{
+    text-align: center;
+   
+}
+
+.notes{
+    text-align: center;
+    padding:1rem;
+}
+
+.crystals {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.crystal {
+    border: .10rem solid black;
+    border-radius: 10%; 
+    height: 10rem;
+    width: 15rem;
+    background: url(images[i]);
+    margin-right: 1rem;
+
+}
+
+.score{
+    text-align: center;
+    padding:1rem;
+    font-weight: 700;
+    float: left;
+    margin-left: 20rem;
+    margin-top:2rem;
+    color: rgb(71, 71, 167);
+   
+}
+
+.lose{ 
+    float: right;
+    margin-right: 20rem;
+    margin-top: 2rem;
+    font-weight: 600;
+    color: rgb(71, 71, 167);
+    
+}
+
+.win{ 
+    float: right;
+    margin-right: 20rem;
+    margin-top: 1rem;
+    font-weight: 600;
+    color: rgb(71, 71, 167);
+    
+}
+
+img {
+   width: 10rem;
+   height: 10rem;
+   
+}
