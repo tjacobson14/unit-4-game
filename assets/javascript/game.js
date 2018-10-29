@@ -31,20 +31,21 @@ $(document).ready(function () {
         // This is generating a random "magic" number 
 
         $("#magicNumber").html("Magic Number: " + magicNumber);
-
-        // console.log(magicNumber);
+        // This is writing the magic number to the page
+        console.log(magicNumber);
 
         for (var i = 0; i < 4; i++) {
-
+            // This is generating a random value for each of the four crystals using a number from 1-10.
             var random = Math.floor(Math.random() * 9) + 1;
-            // console.log(random);
+            console.log(random);
 
-
+            // Creates four new div's within the crystals class. 
             var crystal = $("<div>");
             crystal.attr({
                 "class": "crystal",
                 "data-random": random
             });
+            // Adds Gif's to page using an array of Url's, and applying attributes. 
             crystal.css({
                 "background-image":"url('" + images[i] + "')",
                 "background-size" : "cover",
@@ -55,41 +56,43 @@ $(document).ready(function () {
         $("#score").html("Total Score:" + score);
 
     }
-
+    // Write's the score to the html 
     $("#score").html("Total Score:" + score);
 
+    // Start and Reset Game Upon loading. 
     initalize ();
 
     // Event Delegation? 
     $(document).on("click", ".crystal", function () {
-        // console.log($(this).attr("data-random"));
 
         var num = parseInt($(this).attr("data-random"));
 
         score += num;
 
-        $("#score").html("Total Score:" + score);
+        $("#score").html("Total Score: " + score);
 
         console.log(score);
 
         if (score > magicNumber) {
             lose++;
 
-            $("#lose").html("LOSSES:" + lose);
+            $("#lose").html("Losses: " + lose);
 
             score = 0;
 
             initalize();
         }
-        else if (score === magicNumber) {
+
+        if (score === magicNumber) {
             win++;
 
-            $("#win").html("WINS:" + win);
+            $("#win").html("Wins: " + win);
 
-            score = 0
+            score = 0;
 
             initalize();
         }
+    
 
     })
 });
