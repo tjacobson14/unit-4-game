@@ -1,4 +1,4 @@
-Crystals Collector:
+Crystal Collector:
 
 Game design:
 The random number shown at the start of the game should be between 30 - 120
@@ -12,5 +12,5 @@ When the player clicks on a crystal it will add a specific amount of points to t
 The player wins the game if their total score matches the magic number and the player loses the game if their total score exceeds the magic number.
 The amount of points each crystal adds is not visable to the player, however the total score is displayed and updated after each crystal is clicked.
 The number of games won and lost will be displayed.
-If the player successfully matches their total score to the random magic number they get 1 win, if the player's total score is above the random number the player get 1 loss, either way the game restarts.
+If the player successfully matches their total score to the random magic number they get 1 win, if the player's total score is above the random number the player get 1 loss. The game restarts.
 When the game is restarted, the player will be shown a new random magic number, all the crystals will now have 4 different hidden values, and the player's total score is reset to 0.
