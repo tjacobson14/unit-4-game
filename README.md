@@ -1,12 +1,10 @@
-<h1>Crystal Collector:<h1>
+Crystal Collector:
 
-<h2>Game design:<h2>
-<br>
+Game design:
 The random number shown at the start of the game should be between 30 - 120
 Each crystal should have a random hidden value between 1 - 12
 
-<h2>Game Play:<h2>
-<br>
+Game Play:
 This is a guessing game using numbers.
 There will be four crystals displayed as animated gifs on the page.
 The player will be shown a random number (Magic Number) at the start of the game.
