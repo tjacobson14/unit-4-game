@@ -27,7 +27,7 @@ $(document).ready(function () {
             "https://cdn.dribbble.com/users/563509/screenshots/1978545/rupee.gif",
         ];
 
-        magicNumber = Math.floor(Math.random() * 80) + 30;
+        magicNumber = Math.floor(Math.random() * 90) + 30;
         // This is generating a random "magic" number 
 
         $("#magicNumber").html("Magic Number: " + magicNumber);
@@ -36,7 +36,7 @@ $(document).ready(function () {
 
         for (var i = 0; i < 4; i++) {
             // This is generating a random value for each of the four crystals using a number from 1-10.
-            var random = Math.floor(Math.random() * 9) + 1;
+            var random = Math.floor(Math.random() * 11) + 1;
             console.log(random);
 
             // Creates four new div's within the crystals class. 
